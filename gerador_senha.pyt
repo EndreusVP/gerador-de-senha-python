@@ -30,7 +30,7 @@ caracter = 0
 
 #perguntas
 perguntaAddMaiusculas = input("deseja letras maiusculas na sua senha?(SIM/NÃO)")
-perguntaAddMinuscuças = input("deseja letras minusculas na sua senha?(SIM/NÃO)")
+perguntaAddMinusculas = input("deseja letras minusculas na sua senha?(SIM/NÃO)")
 perguntaAddEspeciais = input("deseja caracter especial na sua senha?(SIM/NÃO)")
 perguntaAddNumeros = input("deseja numeros na sua senha?(SIM/NÃO)")
 perguntaQuantidadeCaracteres = int(input("didgite quantos caracteres tera sua senha?(Apenas numeros)"))
@@ -62,7 +62,7 @@ while index <= caracter:
     if perguntaAddMaiusculas == "sim":
         senha += resAddEspeciais()
     
-    if perguntaAddMinuscuças == "sim":
+    if perguntaAddMinusculas == "sim":
         senha += resAddMinusculas()
     
     if perguntaAddEspeciais == "sim":
@@ -70,5 +70,7 @@ while index <= caracter:
 
     if perguntaAddNumeros == "sim":
         senha += resAddNumeros()
+    
+    index = index + 1
 
-print(senha)
+print("sua senha é: ",senha)
