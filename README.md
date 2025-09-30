@@ -6,7 +6,7 @@ O usuário pode escolher quais tipos de caracteres incluir e a quantidade total 
 
 ## Tecnologias Utilizadas
 - Python
-- VSCode (ou outro editor de código)
+- VSCode (editor)
 
 ## Funcionalidades
 - Seleção de inclusão de letras maiúsculas e minúsculas.
